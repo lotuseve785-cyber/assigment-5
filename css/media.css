@@ -1,0 +1,649 @@
+/* موبايل */
+@media (max-width: 576px) {
+    .sidebar {
+        display: none;
+    }
+
+    /* start main*/
+    main.main {
+        width: 100%;
+    }
+
+    .card-info.one {
+        width: 500px;
+        display: block;
+    }
+
+    .online .bg-green {
+        display: none;
+    }
+
+    .online span {
+        display: none;
+    }
+
+    .main .card-money.two {
+        display: block;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 500px;
+        margin-inline: 20px;
+    }
+
+
+    .card-lists.four {
+        max-width: 500px;
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .card-actives.three {
+        height: 60vh;
+        width: 100%;
+        max-width: 500px;
+        display: block;
+    }
+
+    .card-actives.three .create-account,
+    .card-actives.three .add-card {
+        width: 450px;
+    }
+
+    .boxs .rowone,
+    .boxs .rowtwo {
+        width: 150px;
+    }
+
+    .card-lists.four .text-center span {
+        font-size: 30px;
+    }
+
+    .card-lists.four .text-center p {
+        font-size: 20px;
+    }
+
+    .rowone .item1,
+    .rowone .item2,
+    .rowtwo .item3,
+    .rowtwo .item4 {
+        padding: 30px;
+        width: 140px;
+        height: 200px;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .card-row-three {
+        width: 500px;
+        display: block;
+    }
+
+    .table {
+        display: block;
+        max-width: 500px;
+        width: 100%;
+        margin-block: 30px;
+        margin-inline: 10px;
+        padding: 30px;
+
+    }
+
+    table {
+        font-size: 10px;
+        width: 450px;
+        display: block;
+
+    }
+
+    .three {
+        width: 500px;
+        display: block;
+    }
+
+    .three .view {
+        width: 100%;
+        max-width: 500px;
+
+    }
+
+    .up {
+        display: block;
+        width: 500px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-block: 20px;
+    }
+
+    .totel {
+        width: 450px;
+    }
+
+    .fun,
+    .money,
+    .care,
+    .home {
+        display: block;
+        width: 450px;
+        font-size: 10px;
+
+    }
+
+    .totel .line div,
+    .fun .line div {
+        width: 270px;
+
+    }
+
+    .line div .blue {
+        width: 80%;
+    }
+
+    .end {
+        display: block;
+        width: 500px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+
+/* تابلت */
+@media (min-width:575px) and (max-width: 768px) {
+
+    #dashboard {
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+
+    main.main {
+        width: 100%;
+    }
+
+    .card-info.one {
+        width: 800px;
+        display: block;
+    }
+
+    .card-money.two {
+
+        display: block;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 800px;
+        margin-inline: 20px;
+    }
+
+    .online .bg-green {
+        display: none;
+    }
+
+    .online span {
+        display: none;
+    }
+
+    .main .card-money.two {
+        display: block;
+    }
+
+
+    .card-row-three {
+        display: block;
+        width: 800px;
+    }
+
+    .card-lists.four {
+        height: fit-content;
+        max-width: 780px;
+        width: 100%;
+
+        margin-top: 30px;
+    }
+
+    .card-actives.three {
+        height: 30vh;
+        max-width: 780px;
+        width: 100%;
+        display: block;
+        margin-left: 20px;
+    }
+
+    .card-actives.three .create-account,
+    .card-actives.three .add-card {
+        width: 730px;
+    }
+
+    .boxs .rowone,
+    .boxs .rowtwo {
+        width: 400px;
+    }
+
+    .card-lists.four .text-center span {
+        font-size: 30px;
+    }
+
+    .card-lists.four .text-center p {
+        font-size: 20px;
+    }
+
+    .rowone .item1,
+    .rowone .item2,
+    .rowtwo .item3,
+    .rowtwo .item4 {
+        padding: 30px;
+        width: 300px;
+
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .table {
+        display: block;
+        max-width: 1000px;
+        width: 100%;
+
+        margin-block: 30px;
+        margin-inline: 10px;
+        padding: 30px;
+
+    }
+
+    table {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+
+    .three .view {
+        width: 100%;
+        max-width: 800px;
+
+    }
+
+    .up {
+        display: block;
+        width: 800px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-block: 20px;
+    }
+
+    .week1,
+    .week2,
+    .week3,
+    .week4 {
+        margin-left: 100px;
+    }
+
+    .totel {
+        width: 750px;
+    }
+
+    .fun,
+    .money,
+    .care,
+    .home {
+        display: block;
+        width: 750px;
+        font-size: 10px;
+
+    }
+
+    .totel .line div,
+    .fun .line div {
+        width: 270px;
+
+    }
+
+    .line div .blue {
+        width: 80%;
+    }
+
+    .three {
+        width: 800px;
+        display: block;
+    }
+
+    .end {
+        display: block;
+        width: 800px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* لابتوب صغير */
+@media(min-width:769px)and (max-width: 992px) {
+    #dashboard {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 5%;
+    }
+
+    .card-info.one {
+        width: 1000px;
+        display: block;
+    }
+
+    .navbar .top-logo {
+        margin-bottom: 40px;
+    }
+
+    .navbar .logo-text-info {
+        display: none;
+    }
+
+    .navbar .top-logo .logo-icon {
+        font-size: 20px;
+        padding: 5px;
+        margin-right: -10px;
+        border-radius: 10px;
+    }
+
+    .links .one {
+        display: none;
+    }
+
+
+    .links li span i {
+        visibility: visible;
+    }
+
+    main.main {
+        width: 95%;
+    }
+
+    .card-money.two {
+        width: 1000px;
+
+        display: grid;
+        grid-template-areas:
+            "card1 card2 card3"
+        ;
+        gap: 10px;
+
+
+    }
+
+    .card-money.two .card1 {
+        width: 300px;
+        background-color: white;
+        grid-area: card1;
+
+    }
+
+    .card-money.two .card2 {
+        width: 300px;
+        background-color: white;
+        grid-area: card2;
+    }
+
+    .card-money.two .card3 {
+        width: 300px;
+        background-color: white;
+        grid-area: card3;
+    }
+
+    .card-row-three {
+        width: 1000px;
+        display: grid;
+        grid-template-areas:
+            "row3 row3 row3 row3 row4 row4 row4 row4"
+            "row3 row3 row3 row3 row4 row4 row4 row4"
+            "table table table table table table table table"
+            "table table table table table table table table"
+            "table table table table table table table table"
+        ;
+    }
+
+    .card-actives.three {
+        max-width: 1500px;
+        width: 100%;
+        height: 35vh;
+        grid-area: row3;
+    }
+
+    .card-lists.four {
+        max-width: 1500px;
+        width: 100%;
+        height: 35vh;
+        grid-area: row4;
+    }
+
+    .table {
+        max-width: 1500px;
+        width: 100%;
+        grid-area: table;
+        margin-right: 30px;
+    }
+
+    table {
+        width: 100%;
+        max-width: 1300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    #dashboard {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+
+    main.main {
+        width: calc(100% - 200px);
+    }
+
+
+    .card-money.two {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+    }
+
+
+    .card-row-three {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .card-actives.three,
+    .card-lists.four {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* table 
+    .table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        min-width: 700px;
+    }
+
+
+    .three {
+        width: 100%;
+    }
+
+    .up,
+    .end {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .totel,
+    .fun,
+    .money,
+    .care,
+    .home {
+        width: 100%;
+    }
+}
+
+
+*/
+
+
+
+/* كبير جدا */
+@media (min-width: 1400px) {
+    .sidebar {
+        display: block;
+    }
+
+    /* start main*/
+    main.main {
+        width: 100%;
+    }
+
+    .card-info.one {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+
+
+
+    .main .card-money.two {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        margin-inline: 20px;
+    }
+
+    .card-row-three {
+        width: calc(100/2);
+      display: grid;
+      grid-template-rows: repeat(2,500px);
+       
+        gap: 20px;
+    }
+
+    .card-lists.four {
+        height: 50vh;
+        width: 100%;
+   position: relative;
+   top: -60%;
+    }
+    
+.card-actives.three .create-account,
+.card-actives.three .add-card {
+    width: 700px;
+    
+}
+
+
+  .card-row-three .card-actives.three {
+
+        width: 100%;
+       height: 40vh;
+
+       max-width: 800px;
+       margin-top: 15px;
+    }
+
+ 
+    .boxs .rowone,
+    .boxs .rowtwo {
+        width: 50px;
+    }
+
+    .rowone .item1,
+    .rowone .item2,
+    .rowtwo .item3,
+    .rowtwo .item4 {
+        padding: 30px;
+    
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .table {
+       height: 80vh;
+        grid-area: table;
+        max-width: 5000px;
+        width: 100%;
+        margin-block: 10px;
+        margin-right: -70px;
+        padding: 30px;
+
+    }
+    table{
+        width: 100%;
+        max-width: 2800px;
+    }
+
+  
+
+
+
+
+
+}
